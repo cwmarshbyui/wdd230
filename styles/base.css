@@ -20,8 +20,6 @@ ul.card {
 
 @media only screen and (min-width: 760px) {
     main {
-        background-color: black;
-        color: white;
         grid-template-columns: 1fr 1fr;
         align-items: center;
     }
