@@ -14,12 +14,6 @@
         'opsz' 48
 }
 
-main.blocktext {
-    margin-left: auto;
-    margin-right: auto;
-    width: 8em
-}
-
 ul.card {
     list-style-type: none;
 }
