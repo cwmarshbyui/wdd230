@@ -29,5 +29,6 @@ ul.card {
         background-color: black;
         color: white;
         grid-template-columns: 1fr 1fr;
+        align-items: center;
     }
 }
