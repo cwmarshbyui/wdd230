@@ -1,9 +1,9 @@
 @media only screen and (min-width: 600px) {
-    main {
+    /*   main {
         display: block;
         margin-left: auto;
         margin-right: auto;
-    }
+    } */
 
     ul {
         display: flex;
