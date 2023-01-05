@@ -18,6 +18,11 @@ nav {
     list-style-type: none;
 }
 
+figcaption {
+    padding: 2px;
+    text-align: center;
+}
+
 @media only screen and (min-width: 760px) {
     main {
         grid-template-columns: 1fr 1fr;
