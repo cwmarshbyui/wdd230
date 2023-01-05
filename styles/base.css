@@ -1,36 +1,36 @@
- nav {
+/*  nav {
      width: 100%;
      display: flex;
      justify-content: space-evenly;
      align-items: center;
      padding: 1rem;
- }
+ } */
 
- ul {
-     list-style-type: none;
-     margin: 0;
-     padding: 0;
- }
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
 
- li a {
-     display: block;
-     width: 60px;
-     background-color: #dddddd;
- }
+li a {
+    display: block;
+    width: 60px;
+    background-color: #dddddd;
+}
 
- .material-symbols-outlined {
-     font-variation-settings:
-         'FILL' 0,
-         'wght' 400,
-         'GRAD' 0,
-         'opsz' 48
- }
+.material-symbols-outlined {
+    font-variation-settings:
+        'FILL' 0,
+        'wght' 400,
+        'GRAD' 0,
+        'opsz' 48
+}
 
- .card {
-     list-style-type: none;
- }
+.card {
+    list-style-type: none;
+}
 
- figcaption {
-     padding: 2px;
-     text-align: center;
- }
+figcaption {
+    padding: 2px;
+    text-align: center;
+}
