@@ -3,7 +3,7 @@ nav {
     display: flex;
     justify-content: space-evenly;
     align-items: center;
-    padding: 5rem;
+    padding: 1rem;
 }
 
 .material-symbols-outlined {
