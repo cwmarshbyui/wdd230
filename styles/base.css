@@ -34,3 +34,7 @@ figcaption {
     padding: 2px;
     text-align: center;
 }
+
+body {
+    background-color: lightgreen
+}
