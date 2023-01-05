@@ -3,5 +3,12 @@
     display: flex;
     justify-content: space-evenly;
     align-items: center;
-    background: greenyellow;
+}
+
+.material-symbols-outlined {
+  font-variation-settings:
+  'FILL' 0,
+  'wght' 400,
+  'GRAD' 0,
+  'opsz' 48
 }
