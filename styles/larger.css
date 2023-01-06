@@ -27,14 +27,6 @@
         text-align: center;
         
     }
-    .codyname {
-        display: block;
-        margin-left: auto;
-        margin-right: auto;
-        width: 100%;
-        height: 100px;
-        object-fit: cover;
-    }
 
     body {
         background-color: lightblue;
