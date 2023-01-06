@@ -1,41 +1,90 @@
-  /* nav {
-     width: 100%;
-     display: flex;
-     justify-content: space-evenly;
-     align-items: center;
-     padding: 15px;
- }  */
+  nav {
+    max-width: 760px;
+    margin-left: auto;
+    margin-right: auto;
+ } 
 
- ul {
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
+  nav ul {
+      list-style-type: none;
+      margin: 0;
+      padding: 0;
+      display: flex;
+      flex-direction: column;
+      text-align: center;
   }
 
-  li a {
-    display: block;
-    width: 60px;
-    background-color: #dddddd;
-  } 
+  nav li a {
+      width: 60px;
+      background-color: #dddddd;
+  }
 
-.material-symbols-outlined {
-    font-variation-settings:
-        'FILL' 0,
-        'wght' 400,
-        'GRAD' 0,
-        'opsz' 48
-}
+  ul {
+      list-style-type: none;
+  }
 
-.card {
-    list-style-type: none;
-}
+  .material-symbols-outlined {
+      font-variation-settings:
+          'FILL' 0,
+          'wght' 400,
+          'GRAD' 0,
+          'opsz' 48
+  }
 
-figcaption {
-    padding: 2px;
+  .card {
+      list-style-type: none;
+      text-align: center;
+
+  }
+
+  .highlight {
+      text-decoration: underline;
+  }
+
+  main {
+      columns: 100px 1;
+      text-align: center;
+      /* left:50%; */
+      max-width: 760px;
+      margin-left: auto;
+      margin-right: auto;
+      
+  }
+
+  .codyimage {
+      display: block;
+      margin-left: auto;
+      margin-right: auto;
+      width: 50%;
+      width: 100px;
+      height: 100px;
+      object-fit: cover;
+  }
+
+  .codyname {
+      display: block;
+      margin-left: auto;
+      margin-right: auto;
+      width: 50%;
+      width: 100px;
+      height: 100px;
+      object-fit: cover;
+  }
+
+  figcaption {
+      padding: 2px;
+      text-align: center;
+  }
+
+  footer {
+    columns: 100px 1;
     text-align: center;
-}
+    /* left:50%; */
+    max-width: 760px;
+    margin-left: auto;
+    margin-right: auto;
+  }
 
-body {
-    background-color: lightgreen;
-    /* display:flex; flex-direction:column; justify-content:center; */
-}
+  body {
+      background-color: lightgreen;
+      /* display:flex; flex-direction:column; justify-content:center; */
+  }
