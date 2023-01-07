@@ -6,32 +6,13 @@
         gap: 3rem;
     }
 
-    ul {
-        display: flex;
-        flex-direction: column;
-        align-self: center;
-        /* margin: 13px; */
-        justify-content: space-between;
-
-    }
-
-    .column {
-        flex: 50%;
-
-    }
-
     .card {
-        /* columns: 100px 2;
-        text-align: left;
         display: flex;
-        flex-direction: column;
-        column-gap: 40px; */
-
-        /* display: inline-block; */
-        flex: 50%;
-
-        display:flex;
-
+        /* flex-wrap: wrap; */
+    }
+    
+    .column {
+        flex:100%;
     }
 
     body {

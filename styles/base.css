@@ -23,12 +23,12 @@
       text-align: center;
   }
 
-  .card {
+  /* .card {
       columns: 100px 1;
       list-style-type: none;
       text-align: center;
 
-  }
+  } */
 
   .highlight {
       text-decoration: underline;
