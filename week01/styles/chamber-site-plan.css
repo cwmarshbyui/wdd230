@@ -3,10 +3,15 @@ body {
     margin-left: 20px;
     margin-right: 20px;
 
-    /* background-color: lightgreen; */
+    background-color: lightgreen;
     /* font-family: 'Roboto', sans-serif; */
-      /* font-family: 'Open Sans', sans-serif; */
+      font-family: 'Open Sans', sans-serif;
     /* display:flex; flex-direction:column; justify-content:center; */
+}
+
+nav {color: blue}
+footer {color: red;
+        text-align: center ;
 }
 
 .yellowgreen {
