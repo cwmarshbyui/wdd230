@@ -1,24 +1,13 @@
   nav {
-      max-width: 760px;
-      margin-left: auto;
-      margin-right: auto;
-  }
-
-  nav ul {
-      list-style-type: none;
-      margin: 0;
-      padding: 0;
       display: flex;
       flex-direction: column;
-      text-align: center;
-  }
-
-  nav li a {
-      width: 60px;
+      align-items: center;
+      padding: 1rem;
   }
 
   ul {
       list-style-type: none;
+      margin: 0;
   }
 
   .material-symbols-outlined {
@@ -30,6 +19,7 @@
   }
 
   .card {
+      columns: 100px 1;
       list-style-type: none;
       text-align: center;
 
@@ -60,10 +50,8 @@
   }
 
   .codyname {
-      /* display: block; */
       margin-left: auto;
       margin-right: auto;
-      width: 100%;
       width: 200px;
       height: 25px;
       object-fit: cover;

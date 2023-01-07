@@ -1,26 +1,25 @@
 @media screen and (min-width: 600px) {
-    nav ul {
+    nav {
         display: flex;
         flex-direction: row;
-        align-self: center;
-        list-style-type: none;
-        margin: 13px;
-        justify-content: space-between;
+        justify-content: right;
+        gap: 3rem;
     }
 
     ul {
         display: flex;
         flex-direction: row;
-        align-self: center;
-        list-style-type: none;
-        margin: 13px;
+        align-self: left;
+        /* margin: 13px; */
         justify-content: space-between;
     }
 
     .card {
         columns: 100px 2;
-        text-align: center;
-
+        text-align: left;
+        display: flex;
+        flex-direction: column;
+        column-gap: 40px;
     }
 
     body {
