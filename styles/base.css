@@ -18,6 +18,10 @@
           'opsz' 48
   }
 
+  h3 {
+      margin-bottom: 0;
+  }
+
   .card {
       columns: 100px 1;
       list-style-type: none;
