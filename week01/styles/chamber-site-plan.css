@@ -1,0 +1,25 @@
+body {
+    /* background-color: lightgreen; */
+    /* font-family: 'Roboto', sans-serif; */
+      /* font-family: 'Open Sans', sans-serif; */
+    /* display:flex; flex-direction:column; justify-content:center; */
+}
+
+.yellowgreen {
+    background-color: lightgreen;
+}
+
+.browntext {
+    color: brown;
+}
+
+.navcolors {
+    color: blue;
+}
+.footercolors {
+    color: red;
+}
+
+.standardfont {
+    font-family: 'Open Sans', sans-serif;
+}
