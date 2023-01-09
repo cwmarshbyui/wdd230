@@ -9,17 +9,48 @@ footer {
     margin: 0 auto;
 }
 
-marquee {
+.footer {
+    text-align:right;
+}
+
+.banner {
     padding: 1rem;
     background-color: #eee;
+    padding-bottom: 0rem;
 }
 
 h1 {
     border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+    margin-bottom: 0rem;
+    padding-bottom: 0rem;
 }
 
 main {
     display: grid;
+    grid-template-areas:
+        'H2 H2'
+        'Section1 Section2'
+        'Callout Callout';
+}
+
+h2 {
+    grid-area: H2;
+    color: blue;
+    padding-left: 1rem;
+    margin-top: 10px;
+}
+
+.section1 {
+    grid-area: Section1;
+}
+
+.section2 {
+    grid-area: Section2;
+    Padding-right: 10rem;
+}
+
+.callout {
+    grid-area: Callout;
 }
 
 h2 {
@@ -29,6 +60,7 @@ h2 {
 
 article p {
     text-align: justify;
+    padding-right: 2rem;
 }
 
 .callout {
