@@ -24,16 +24,17 @@
 
   }
 
-  h3 {
-      margin-bottom: 0;
-      text-align: center;
-      display: none;
+  .h3sections {
+      padding-top: 3px;
+      padding-left: 2rem;
+      margin: 0px;
   }
 
   .card {
-      list-style-type: none;
-      text-align: center;
-
+      border: 5px solid brown;
+      text-align: left;
+      border-radius: 1rem;
+      border: 2px solid blue;
   }
 
   .highlight {
@@ -43,18 +44,32 @@
   .sections {
       max-width: 600px;
       margin: 1rem auto;
-      border: 3px solid #73AD21;
       display: grid;
-      grid-template-columns: auto;
-      grid-template-rows: 3fr;
-      grid-row-gap: 1rem;
+      grid-template-areas:
+          'Sec1'
+          'Sec2'
+          'Sec3';
+      grid-gap: 10px;
+      padding: 10px;
+      max-width: 640px;
+  }
+
+  .section1 {
+      grid-area: Sec1;
+  }
+
+  .section2 {
+      grid-area: Sec2;
+
+  }
+
+  .section3 {
+      grid-area: Sec3;
 
   }
 
   .codyimage {
-      display: block;
-      margin-left: auto;
-      margin-right: auto;
+      padding-left: 1rem;
       width: 50%;
       width: 100px;
       height: 100px;
@@ -62,12 +77,16 @@
   }
 
   .codyname {
-      margin-left: auto;
-      margin-right: auto;
-      width: 200px;
-      height: 25px;
-      object-fit: cover;
+    text-align: center;
+    margin:0;
   }
+
+  .codypicture {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 0;
+}
 
   figcaption {
       display: flex;
@@ -87,8 +106,4 @@
       background-color: lightgreen;
       font-family: 'Roboto', sans-serif;
 
-  }
-
-  h3 {
-    /* display: none; */
   }
