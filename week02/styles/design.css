@@ -9,14 +9,10 @@ footer {
     margin: 0 auto;
 }
 
-.footer {
-    text-align:right;
-}
-
 .banner {
     padding: 1rem;
-    background-color: #eee;
-    padding-bottom: 0rem;
+    background-color: lightblue;
+    padding-bottom: 1rem;
 }
 
 h1 {
@@ -28,6 +24,7 @@ h1 {
 main {
     display: grid;
     grid-template-areas:
+        'H1 H1'
         'H2 H2'
         'Section1 Section2'
         'Callout Callout';
@@ -36,7 +33,6 @@ main {
 h2 {
     grid-area: H2;
     color: blue;
-    padding-left: 1rem;
     margin-top: 10px;
 }
 
@@ -51,11 +47,6 @@ h2 {
 
 .callout {
     grid-area: Callout;
-}
-
-h2 {
-    color: navy;
-    text-align: left;
 }
 
 article p {
@@ -73,5 +64,5 @@ footer {
     margin-top: 1rem;
     border-top: 1px solid rgba(0, 0, 0, 0.1);
     font-size: smaller;
-    text-align: right;
+    text-align: left;
 }
