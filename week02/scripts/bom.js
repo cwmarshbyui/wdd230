@@ -1,17 +1,11 @@
 const input = document.querySelector('#favchap');
 const button = document.querySelector('button');
-const list = document.querySelector('ul');
+const list = document.querySelector('#list');
 
 
 button.addEventListener('click', function () {
     if (input.value != '') {
         const myItem = input.value;
-        li.textContent = input.value;
-        // li.textContent = myItem;
-        deleteButton.textContent = '❌';
-        li.append(deleteButton);
-        li.append('testing 123 cody ');
-        list.append(li);
         input.value = '';
     }
 });
@@ -19,8 +13,8 @@ button.addEventListener('click', function () {
 const li = document.createElement('li');
 const deleteButton = document.createElement('button');
 
-li.textContent = input.value;
-// li.textContent = myItem;
+// li.textContent = input.value;
+li.textContent = myItem;
 deleteButton.textContent = '❌';
 li.append(deleteButton);
 li.append('testing 123 cody ');
