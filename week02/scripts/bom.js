@@ -12,6 +12,7 @@ button.addEventListener('click', () => {
         li.append(deleteButton);
         // li.append('testing 123 cody ');
         list.append(li);
+        console.log(list)
         input.value = '';
     }
 });
