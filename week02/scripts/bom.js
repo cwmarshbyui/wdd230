@@ -10,8 +10,8 @@ button.addEventListener('click', () => {
         li.textContent = myItem;
         deleteButton.textContent = '❌';
         li.append(deleteButton);
-        li.append('testing 123 cody ');
-        list.appendChild(li);
+        // li.append('testing 123 cody ');
+        list.append(li);
         input.value = '';
     }
 });
