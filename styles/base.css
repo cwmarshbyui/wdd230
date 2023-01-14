@@ -143,7 +143,6 @@
 
    }
 
-
    footer {
        columns: 100px 1;
        text-align: center;
@@ -155,5 +154,41 @@
    body {
        background-color: lightgreen;
        font-family: 'Roboto', sans-serif;
+
+       * {
+           box-sizing: border-box;
+       }
+
+       body {
+           display: flex;
+           flex-direction: column;
+           align-items: center;
+           font-family: Roboto, sans-serif;
+       }
+
+       main {
+           margin: 0;
+           border: 1px solid rgba(0, 0, 0, 0.2);
+           padding: 1rem;
+           width: 760px;
+           background-color: #eee;
+           color: #000;
+       }
+
+       main img {
+           float: right;
+           margin: 0 0 1rem 1rem;
+           border: 1px solid #333;
+           box-shadow: 0 0 15px #777;
+       }
+
+       #mode {
+           position: absolute;
+           top: 1rem;
+           right: 1rem;
+           font-size: 3rem;
+           cursor: pointer;
+       }
+
 
    }
