@@ -1,8 +1,7 @@
-const menubutton = document.querySelector("#menu-button");
-const menuitems = document.querySelectorAll(".menu-item");
-// menuitems will be a Node List of the list items
+const menubtn = document.querySelector('header button')
+const menunav = document.querySelector("nav")
 
-menubutton.addEventListener("click", () => {
-    menuitems.forEach((item) => item.classList.toggle("open"));
-    menubutton.classList.toggle("close");
-});
+menubtn.addEventListener('click', () => {
+    menunav.classList.toggle('open')
+    // menubutton.classList.toggle("close");
+})

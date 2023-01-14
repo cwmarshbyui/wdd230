@@ -1,6 +1,64 @@
+header {
+    border: dashed 1px blue;
+    display: grid;
+    grid-template-columns: auto 44px;
+}
+
+header button {
+    height: 48px;
+    width: 48px;
+    font-size: 2rem;
+}
+
+button::before {
+    content:"\2630";
+}
+
+button.open::before {
+    content:"X";
+}
+
 nav {
+    display: none;
+    position: absolute;
+    top: 60px;
+    right: 0px;
+}
+
+nav.open {
+    display: block;
+}
+
+nav ul {
+    margin: 0;
+    padding: 0;
+}
+
+nav li {
+    list-style: none;
+}
+
+nav a {
+    display: block;
+    padding: .75rem 2rem;
+    border: 1px dashed purple;
+}
+
+/* nav {
     display: flex;
     flex-direction: column;
-    align-items: center;
-    padding: 1rem;
+    gap: 8px;
+    text-align: center;
 }
+
+nav a {
+    color: brown;
+    text-decoration: none;
+    background-color: coral;
+    padding: .8rem;
+
+}
+
+.navmenu {
+
+} */
