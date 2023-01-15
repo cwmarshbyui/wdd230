@@ -32,11 +32,10 @@ nav.open {
 nav ul {
     margin: 0;
     padding: 0;
-    text-align: right;
 }
 
 nav li {
-    list-style: none
+    list-style: none;
 }
 
 nav a {
@@ -77,9 +76,9 @@ body {
     font-family: Roboto, sans-serif;
     background-color: lightgreen;
 }
+
 footer {
     display: block;
     text-align: center;
     border: solid 4px blue;
 }
-
