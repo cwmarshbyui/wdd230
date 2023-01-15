@@ -17,4 +17,12 @@
         justify-content: flex-end;
     }
 
+    .sections {
+        display: grid;
+        grid-template-areas:
+            'join current'
+            'weather spotlights';
+        justify-items: center;
+    }
+
 }

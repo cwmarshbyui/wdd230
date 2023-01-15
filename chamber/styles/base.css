@@ -1,5 +1,5 @@
 header {
-    border: dashed 1px blue;
+    border: solid 4px blue;
     display: grid;
     grid-template-columns: auto 44px;
 }
@@ -11,11 +11,11 @@ header button {
 }
 
 button::before {
-    content:"\2630";
+    content: "\2630";
 }
 
 button.open::before {
-    content:"X";
+    content: "X";
 }
 
 nav {
@@ -41,7 +41,39 @@ nav li {
 nav a {
     display: block;
     padding: .75rem 2rem;
-    border: 1px dashed purple;
+}
+
+.citychamber {
+    display: block;
+    justify-content: center;
+}
+
+.cityname {
+    display: block;
+    justify-content: center;
+    border: blue;
+    padding: 0;
+    margin: 0;
+}
+
+.heroimage {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: .5rem;
+    width: 80%;
+}
+
+.sections {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+
+footer {
+    display: block;
+    text-align: center;
+    border: solid 4px blue;
 }
 
 /* nav {
