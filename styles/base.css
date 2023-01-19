@@ -196,6 +196,33 @@
        height: auto;
    }
 
+   .temple {
+       margin: 10px auto;
+       position: relative;
+       border: 2px solid blue;
+       height: 200px;
+   }
+
+   .temple img {
+       object-fit: cover;
+   }
+
+   .templelabel p {
+       position: absolute;
+       top: 30px;
+       left: 20px;
+       opacity: 0.9;
+       /* box-shadow: 0 0 3rem #fff; */
+       /* margin: auto; */
+       padding: .25rem;
+       font-weight: 600;
+       font-size: 1rem;
+       width: 100%;
+       white-space: nowrap;
+              color: whitesmoke;
+   }
+
+
    #mode {
        position: absolute;
        top: 1rem;
