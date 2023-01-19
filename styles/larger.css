@@ -28,4 +28,12 @@
         padding: 10px;
     }
 
-}
+    iframe {
+        display: block;
+        height: 450px;
+        width: 600px;
+        margin: 0 auto;
+        /* width: 50%; */
+        /* margin: 0 auto; */
+
+    }

@@ -212,16 +212,31 @@
        top: 30px;
        left: 20px;
        opacity: 0.9;
-       /* box-shadow: 0 0 3rem #fff; */
-       /* margin: auto; */
        padding: .25rem;
        font-weight: 600;
        font-size: 1rem;
        width: 100%;
        white-space: nowrap;
-              color: whitesmoke;
+       color: whitesmoke;
    }
 
+   iframe {
+       display: block;
+       height: 250px;
+       width: 300px;
+       margin: 0 auto;
+   }
+
+   .visitslabel {
+       font-family: Arial, sans-serif;
+       font-weight: 700;
+   }
+
+   .visits {
+       color: navy;
+       font-family: Arial, sans-serif;
+       font-weight: 900;
+   }
 
    #mode {
        position: absolute;
