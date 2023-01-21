@@ -229,3 +229,39 @@
        font-size: 3rem;
        cursor: pointer;
    }
+
+   .discover-sidebar {
+       display: flex;
+       flex-direction: column;
+       justify-content: center;
+       text-align: center;
+       margin-left: 1rem;
+       gap: 1rem;
+       width: 100%;
+   }
+
+   .discover-pictures {
+       display: block;
+       max-width: 80%;
+       justify-content: center;
+       margin: auto;
+
+   }
+
+   .discover-sections {
+       display: grid;
+       grid-template-areas:
+           'Sec1'
+           'Sec2';
+       grid-gap: 10px;
+       padding: 10px;
+   }
+
+   .discover-pic-labels {
+       padding: 1px;
+       margin: 0;
+   }
+
+   .discover-hover:hover {
+       box-shadow: 0 0 50px #333;
+   }

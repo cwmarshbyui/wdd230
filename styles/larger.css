@@ -37,3 +37,41 @@
         /* margin: 0 auto; */
 
     }
+
+    .discover-main {
+        max-width: 100%;
+    }
+
+    .discover-sidebar {
+        display: flex;
+        flex-direction: column;
+        justify-content: left;
+        margin-left: 1rem;
+        gap: 1rem;
+        width: 100%;
+    }
+
+    .discover-sections {
+        display: grid;
+        grid-template-areas:
+            'Sec1 Sec2 Sec2'
+            'Sec1 Sec2 Sec2';
+        grid-gap: 10px;
+        padding: 10px;
+    }
+
+    /* .discover-sections {
+        display: flex;
+        flex-direction: row;
+        grid-gap: 10px;
+        padding: 10px;
+    } */
+
+    .discover-h2 {
+        padding: 0;
+        margin: 0;
+        gap: 0;
+        justify-content: left;
+
+    }
+}
