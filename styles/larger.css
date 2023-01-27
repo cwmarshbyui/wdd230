@@ -74,4 +74,11 @@
         justify-content: left;
 
     }
-}
+
+    .fields {
+        display: grid;
+        grid-template-areas:
+        'a b';
+       }
+
+ }
