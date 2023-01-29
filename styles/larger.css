@@ -78,7 +78,25 @@
     .fields {
         display: grid;
         grid-template-areas:
-        'a b';
-       }
+            'a b';
+    }
 
- }
+    main.join label.memlevel {
+        padding: .4rem 0;
+    }
+
+    main.join .inputdata {
+        display: flex;
+        flex-direction: row;
+        padding: 1rem;
+        margin: 1rem;
+    }
+
+    main.join .inputdata {
+        display: grid;
+        grid-template-areas:
+            'one two';
+        /* max-width: 20rem; */
+    }
+
+}

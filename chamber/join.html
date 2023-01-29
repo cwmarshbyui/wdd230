@@ -8,10 +8,10 @@
     <title>"WDD 230 - Portal - Cody Marsh</title>
     <meta name="description" content="WDD 230 - Cody Marsh - course assignment portal">
     <meta name="author" content="Cody Marsh">
-    <link rel="stylesheet" href="styles/normalize.css">
-    <link rel="icon" href="favicon.ico">
-    <link rel="stylesheet" href="styles/base.css">
-    <link rel="stylesheet" href="styles/larger.css">
+    <link rel="stylesheet" href="../styles/normalize.css">
+    <link rel="icon" href="../favicon.ico">
+    <link rel="stylesheet" href="../styles/base.css">
+    <link rel="stylesheet" href="../styles/larger.css">
     <link rel="stylesheet"
         href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200">
     <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@1,100;1,300&display=swap" rel="stylesheet">
@@ -35,41 +35,82 @@
                 <a href="#" id="menu-button">Menu</a>
             </li>
             <li title="Holy Grail">
-                <a href="week01/holygrail.html" class="menu-item">Holy Grail</a>
+                <a href="../week01/holygrail.html" class="menu-item">Holy Grail</a>
             </li>
             <li title="Media Query">
-                <a href="week01/media-query.html" class="menu-item">Media Query</a>
+                <a href="../week01/media-query.html" class="menu-item">Media Query</a>
             </li>
             <li title="Design">
-                <a href="week02/design.html" class="menu-item">Design</a>
+                <a href="../week02/design.html" class="menu-item">Design</a>
             </li>
             <li title="Hamburger Menu">
-                <a href="https://codepen.io/cwmarsh/full/XWBMBgY" class="menu-item">Hamburger Menu</a>
+                <a href="../https://codepen.io/cwmarsh/full/XWBMBgY" class="menu-item">Hamburger Menu</a>
             </li>
             <li title="BOM Top 10">
-                <a href="week02/bom.html" class="menu-item">BOM Top 10</a>
+                <a href="../week02/bom.html" class="menu-item">BOM Top 10</a>
             </li>
         </ul>
     </nav>
     <header>
         <div class="codypicture">
             <h1 class="codyname">Cody Marsh</h1>
-            <h1><img src="images/CodyMarshPrairieMadeHappyPicture.png" alt="Happy picture of Cody" class="codyimage"
+            <h1><img src="../images/CodyMarshPrairieMadeHappyPicture.png" alt="Happy picture of Cody" class="codyimage"
                     loading="lazy">
 
             </h1>
         </div>
     </header>
-    <main>
+    <main class="join">
+        <h1>Join Us!</h1>
+        <form method="get" action="thankyou.html">
+            <div class="inputdata">
+                <div>
+                <fieldset class=ftop>
+                    <legend class="memuserinfo">Join Information</legend>
+                    <label class="userinfo">First Name* <input type="text" name="fname" required></label>
+                    <label class="userinfo">Last Name* <input type="text" name="lname" required></label>
+                    <label class="userinfo">Business Position <input type="text" name="text" required
+                            pattern="[A-Za-z- ]{7,}"></label>
+                    <label class="userinfo">Email <input type="email" name="email" placeholder="someone@gmail.com"
+                            required></label>
+                    <label class="userinfo">Cell Phone* <input type="tel" name="phone" placeholder="1235551234"
+                            required></label>
+                    <label class="userinfo">Title <input type="text" name="text" required></label>
+                    <label class="userinfo"> Business Description <input type="text" name="text"></label>
+                </div>
+                <div>
+                </fieldset>
+                <fieldset class="fbottom">
+                    <legend class="memlegend">Level</legend>
+                    <div>Membership</div>
+                    <label class="memlevel"><input type="radio" name="membership" value="np"> NP - This will be fun $10
+                        Monthly</label>
+                    <label class="memlevel"><input type="radio" name="membership" value="bronze"> Bronze - This will be
+                        fun $25 Monthly</label>
+                    <label class="memlevel"><input type="radio" name="membership" value="silver"> Silver - This will be
+                        fun $50 Monthly</label>
+                    <label class="memlevel"><input type="radio" name="membership" value="gold"> Gold - This will be fun
+                        $100 Monthly</label>
+                </fieldset>
+            </div>
+
+            </div>
+            <input type="submit" value="Join Us!" class="submitBtn">
+            <input type="hidden" name="hidden"> <span id="joindatetime"></span>
+
+        </form>
+
     </main>
     <footer>
         <p>&copy; <span id="currentyear"></span> Cody Marsh - Arizona - 2.1.1</p>
         <p class="highlight">Last Modified <span id="lastModified"></span></p>
     </footer>
-    <script src="scripts/getDates.js"></script>
-    <script src="scripts/getVisits.js"></script>
-    <script src="scripts/darkMode.js"></script>
-    <script src="scripts/hamburger.js"></script>
+    <script src="../scripts/getDates.js"></script>
+    <script src="../scripts/getVisits.js"></script>
+    <script src="../scripts/darkMode.js"></script>
+    <script src="../scripts/hamburger.js"></script>
+    <script src="../scripts/contactform.js"></script>
+    <script src="scripts/join.js"></script>
 </body>
 
 </html>
