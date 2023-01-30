@@ -1,0 +1,42 @@
+    body {
+        background-color: lightblue;
+    }
+
+    main,
+    h1 {
+        font-family: Arial;
+        font-weight: 600;
+        background-color: lightblue;
+        text-align: center;
+    }
+
+    div {
+        display: grid;
+        grid-template-areas:
+            'a';
+    }
+
+    section {
+        display: block;
+        max-width: 90%;
+        justify-content: center;
+        margin-bottom: 6px;
+        border: white solid 4px;
+        
+    }
+
+    h2 {
+        margin: 1rem 0 .35rem 0;
+        text-align: center;
+        color: blue;
+    }
+
+    h3 {
+        margin: 0 0 .25rem 0;
+        text-align: center;
+    }
+
+    img {
+        width: 80%;
+        height: auto;
+    }

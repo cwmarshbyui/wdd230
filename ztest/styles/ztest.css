@@ -1,0 +1,19 @@
+.join .div1 {
+    color: black;
+}
+
+.join .div1-level2 {
+    color: blue;
+}
+
+.join .jobs .div2 .div2-level2{
+    color: orange;
+}
+
+.join .jobs .div2 .div2-level2 {
+    color: red;
+}
+
+.join div.div2 {
+  font-style: italic;
+}
