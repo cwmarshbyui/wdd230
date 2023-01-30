@@ -14,6 +14,7 @@
         display: grid;
         grid-template-areas:
             'a';
+            justify-content: center;
     }
 
     section {
