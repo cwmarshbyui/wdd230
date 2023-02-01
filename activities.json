@@ -1,0 +1,72 @@
+{
+    "activities": [
+        [
+            "week01/holygrail.html",
+            "Week01:3 Page Layout: The Holy Grail"
+        ],
+        [
+            "week01/media-query.html",
+            "week01:5 Responsive Design: CSS Media Queries"
+        ],
+        [
+            "week02/design.html",
+            "week02:1 Design Principles"
+        ],
+        [
+            "https://codepen.io/cwmarsh/full/XWBMBgY",
+            "week02:4 CodePen Hamburger Menu"
+        ],
+        [
+            "week02/bom.html",
+            "week02:5 Book of Mormon - Top 10"
+        ],
+        [
+            "week03/images/landscape.webp",
+            "Week 03:1 WebP Image File Format"
+        ],
+        [
+            "week03/lazyload.html",
+            "Week 03:2 Native Lazy Loading"
+        ],
+        [
+            "https://codepen.io/cwmarsh/full/KKBvbbQ",
+            "Week 03:3 Responsive Images - srcset"
+        ],
+        [
+            "week03/bom.html",
+            "Week 03:4 Web Storage API - localStorage"
+        ],
+        [
+            "https://codepen.io/cwmarsh/full/GRBQxwM",
+            "Week 04:1 CSS Psuedo-classes"
+        ],
+        [
+            "week04/images/Screenshot2023-01-23-124453.jpg",
+            "Week 04:2 CSS Combinators"
+        ],
+        [
+            "week04/tablebuild.html",
+            "Week 04:3 HTML Tables for Data Presentation"
+        ],
+        [
+            "form-start/index.html",
+            "Week 04:4 HTML Forms"
+        ],
+        [
+            "https://codepen.io/cwmarsh/full/XWBPXvw",
+            "Week 05:1 CSS Pseudo-elements"
+        ],
+        [
+            "week05/new-ward-members.json",
+            "Week 05:2 JSON"
+        ],
+        [
+            "week05/prophets.html",
+            "Week 05:3 The Fetch API"
+        ],
+        [
+            "week05/weather.html",
+            "Week 05:4 Consuming a Weather API"
+        ]
+    ]
+}
