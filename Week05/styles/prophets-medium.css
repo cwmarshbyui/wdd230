@@ -1,8 +1,0 @@
-@media screen and (min-width: 800px) {
-
-    div {
-        display: grid;
-        grid-template-areas:
-            'a b';
-    }
-}
