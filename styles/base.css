@@ -291,7 +291,7 @@
    .fields {
        display: grid;
        grid-template-areas:
-           'a', 'b';
+           'a' 'b';
    }
 
    form label.top,
