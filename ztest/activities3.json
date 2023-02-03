@@ -17,15 +17,15 @@
         "activities": [
             {
                 "href": "week02/design.html",
-                "descr": "week02:1 Design Principles"
+                "desc": "week02:1 Design Principles"
             },
             {
                 "href": "https://codepen.io/cwmarsh/full/XWBMBgY",
-                "descr": "week02:4 CodePen Hamburger Menu"
+                "desc": "week02:4 CodePen Hamburger Menu"
             },
             {
                 "href": "week02/bom.html",
-                "descr": "week02:5 Book of Mormon - Top 10"
+                "desc": "week02:5 Book of Mormon - Top 10"
             }
         ]
     }

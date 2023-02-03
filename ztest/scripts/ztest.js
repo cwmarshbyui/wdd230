@@ -1,7 +1,8 @@
 
 const arrayTest = document.querySelector('#arraytest');
 const arrayTesTheWeek = document.querySelector('#arraytesttheweek');
-const url = '../activities3.json';
+const activitiesTest = document.querySelector('#activitiestest');
+const url = 'activities3.json';
 
 async function apiFetch() {
     try {
@@ -23,7 +24,19 @@ apiFetch();
 
 function displayResults(data) {
     arrayTest.innerHTML = data.length;
-    arrayTesTheWeek.innerHTML = data[1].length;
-    alert(data[0].length);
+    arrayTesTheWeek.innerHTML = data[0].activities[0].href;
+    for (i in data) {
+        for (j in data[i].activities) {
+            let li = document.createElement('li');
+            let a = document.createElement('a');
+            const activitiesRef = document.getElementById("activitiestest");
 
+            a.setAttribute('href', data[i].activities[j].href);
+            a.innerHTML = data[i].activities[j].desc;
+            li.append(a);
+            activitiesRef.appendChild(li);
+        }
+    }
 }
+
+
