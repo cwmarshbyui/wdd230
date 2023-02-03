@@ -1,0 +1,32 @@
+[
+    {
+        "week": "Week01",
+        "activities": [
+            {
+                "href": "week01/holygrail.html",
+                "desc": "Week01:3 Page Layout: The Holy Grail"
+            },
+            {
+                "href": "week01/media-query.html",
+                "desc": "week01:5 Responsive Design: CSS Media Queries"
+            }
+        ]
+    },
+    {
+        "week": "week02",
+        "activities": [
+            {
+                "href": "week02/design.html",
+                "descr": "week02:1 Design Principles"
+            },
+            {
+                "href": "https://codepen.io/cwmarsh/full/XWBMBgY",
+                "descr": "week02:4 CodePen Hamburger Menu"
+            },
+            {
+                "href": "week02/bom.html",
+                "descr": "week02:5 Book of Mormon - Top 10"
+            }
+        ]
+    }
+]

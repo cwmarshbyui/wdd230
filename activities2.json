@@ -1,0 +1,80 @@
+[
+    [
+        {
+            "href": "week01/holygrail.html",
+            "desc": "Week01:3 Page Layout: The Holy Grail"
+        },
+        {
+            "href": "week01/media-query.html",
+            "desc": "week01:5 Responsive Design: CSS Media Queries"
+        }
+    ],
+    [
+        {
+            "href": "week02/design.html",
+            "desc": "week02:1 Design Principles"
+        },
+        {
+            "href": "https://codepen.io/cwmarsh/full/XWBMBgY",
+            "desc": "week02:4 CodePen Hamburger Menu"
+        },
+        {
+            "href": "week02/bom.html",
+            "desc": "week02:5 Book of Mormon - Top 10"
+        }
+    ],
+    [
+        {
+            "href": "week03/images/landscape.webp",
+            "desc": "Week 03:1 WebP Image File Format"
+        },
+        {
+            "href": "week03/lazyload.html",
+            "desc": "Week 03:2 Native Lazy Loading"
+        },
+        {
+            "href": "https://codepen.io/cwmarsh/full/KKBvbbQ",
+            "desc": "Week 03:3 Responsive Images - srcset"
+        },
+        {
+            "href": "week03/bom.html",
+            "desc": "Week 03:4 Web Storage API - localStorage"
+        }
+    ],
+    [
+        {
+            "href": "https://codepen.io/cwmarsh/full/GRBQxwM",
+            "desc": "Week 04:1 CSS Psuedo-classes"
+        },
+        {
+            "href": "week04/images/Screenshot2023-01-23-124453.jpg",
+            "desc": "Week 04:2 CSS Combinators"
+        },
+        {
+            "href": "week04/tablebuild.html",
+            "desc": "Week 04:3 HTML Tables for Data Presentation"
+        },
+        {
+            "href": "form-start/index.html",
+            "desc": "Week 04:4 HTML Forms"
+        }
+    ],
+    [
+        {
+            "href": "https://codepen.io/cwmarsh/full/XWBPXvw",
+            "desc": "Week 05:1 CSS Pseudo-elements"
+        },
+        {
+            "href": "week05/new-ward-members.json",
+            "desc": "Week 05:2 JSON"
+        },
+        {
+            "href": "week05/prophets.html",
+            "desc": "Week 05:3 The Fetch API"
+        },
+        {
+            "href": "week05/weather.html",
+            "desc": "Week 05:4 Consuming a Weather API"
+        }
+    ]
+]
