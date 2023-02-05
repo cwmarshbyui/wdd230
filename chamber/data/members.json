@@ -1,0 +1,86 @@
+[
+    {
+        "company": "Boot Barn",
+        "street": "850 S Watson Rd",
+        "city": "Buckeye",
+        "state": "AZ",
+        "zip": "85326",
+        "phone": "(623) 624-4141",
+        "website": "https://paulbondboots.com/",
+        "companyimage": "images/bootbarn.webp",
+        "membershiplevel": "Basic",
+        "missionstatement": "Always Look and Work Good"
+    },
+    {
+        "company": "ATV Tours",
+        "street": "109 N. 2nd Street",
+        "city": "Buckeye",
+        "state": "AZ",
+        "zip": "85326",
+        "phone": "(546) 877-6115",
+        "website": "https://azoutdoorfun.com/guided-tours/",
+        "companyimage": "images/maverickx3.webp",
+        "membershiplevel": "Premium",
+        "missionstatement": "Thrill Ya and Chill Ya"
+    },
+    {
+        "company": "Fred's Bread",
+        "street": "4608 W. 200 N. Buckeye, AZ 85326",
+        "city": "Buckeye",
+        "state": "AZ",
+        "zip": "85326",
+        "phone": "(546) 877-6115",
+        "website": "https://azoutdoorfun.com/guided-tours/",
+        "companyimage": "images/bread.webp",
+        "membershiplevel": "Fun Time",
+        "missionstatement": "Fun Carbs"
+    },
+    {
+        "company": "Extremity Health Center",
+        "street": "825 S Watson Rd Ste 107",
+        "city": " Buckeye",
+        "state": "AZ",
+        "zip": "85326",
+        "phone": "(480) 994-5977",
+        "website": "https://www.extremityhealthcenters.com/offices/buckeye-office/",
+        "companyimage": "images/ExtremityHealthCenter.jpg",
+        "membershiplevel": "Fun Time",
+        "missionstatement": "Fun Carbs"
+    },
+    {
+        "company": "AZPetVet North Buckeye",
+        "street": "825 S Watson Rd Ste 107",
+        "city": " Buckeye",
+        "state": "AZ",
+        "zip": "85326",
+        "phone": "(623) 691-6305",
+        "website": "https://www.northbuckeyeah.com/",
+        "companyimage": "images/AZPetVet.jpg",
+        "membershiplevel": "Fun Time",
+        "missionstatement": "Fun Carbs"
+    },
+    {
+        "company": "South Buckeye Equestrian & Events Center",
+        "street": "10300 S. Miller Rd.",
+        "city": " Buckeye",
+        "state": "AZ",
+        "zip": "85326",
+        "phone": "(623) 691-6900",
+        "website": "https://www.northbuckeyeah.com/",
+        "companyimage": "images/EquestrianCenter.webp",
+        "membershiplevel": "Premium",
+        "missionstatement": "Ride and Rope"
+    },
+    {
+        "company": "Filiberto's Mexican Food",
+        "street": "4370 North Miller Road Suite 102",
+        "city": " Buckeye",
+        "state": "AZ",
+        "zip": "85326",
+        "phone": "(623) 386-8800",
+        "website": "https://filibertos.com/",
+        "companyimage": "images/Filibertos.jpg",
+        "membershiplevel": "Fun Time",
+        "missionstatement": ""
+    }
+]

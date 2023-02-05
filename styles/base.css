@@ -423,3 +423,134 @@
    #joindatetime {
        justify-content: center;
    }
+
+   /************************************/
+   /* Week 05 Chamber Members Activity */
+   /************************************/
+   .members main {
+       max-width: 1200px;
+       margin: auto;
+       width: 100%;
+       height: auto;
+   }
+
+   .members .membersmenu {
+	margin: 1rem auto;
+	border: 1px solid rgba(0, 0, 0, 0.1);
+	padding: 0.5rem;
+	background-color: lightblue;
+	text-align: center;
+}
+
+.members .membersmenu button {
+	padding: 1rem;
+	font-weight: 1500;
+    background-color: lightblue;
+    font-size: 20px;
+}
+
+.members .membersmenu {
+	margin: 1rem auto;
+	border: 3px solid darkblue;
+	padding: 0.5rem;
+	background-color: lightblue;
+	text-align: center;
+}
+
+   .members article {
+       display: grid;
+       /* grid-template-areas:
+           'a b'; */
+       /* grid-template-columns: 2fr 1fr 1fr; */
+       /* grid-template-columns: auto auto auto; */
+       /* justify-content: center; */
+   }
+
+  .members section {
+	border: 1px solid darkblue;
+	padding: 0.5rem;
+	background-color: lightblue;
+}
+
+.members .grid {
+	display: grid;
+	grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+	align-items: center;
+}
+
+.members .grid section > * {
+	margin: 0.1rem;
+}
+
+.members .grid h1 {
+	font-family: Arial, Helvetica, sans-serif;
+    font-size: 1rem;
+}
+
+.members .grid h2 {
+	font-family: Arial, Helvetica, sans-serif;
+    font-size: 1.5rem;
+}
+
+.members .grid h3 {
+	font-family: Arial, Helvetica, sans-serif;
+    font-size: 1rem;
+    text-align: center;
+
+}
+.members .grid a {
+    text-align: center;
+    font-size: 1rem;
+}
+
+
+
+.members .list {
+	display: flex;
+	flex-direction: column;
+}
+
+.members .list a {
+    text-align: center;
+    font-size: 1rem;
+    display: none;
+}
+
+.members .list section {
+	display: grid;
+	grid-template-columns: 2fr 1fr 1fr;
+	margin: 0;
+	padding: 0.25rem;
+}
+
+.members .list section > * {
+	margin: 0 1rem;
+}
+
+.members .list section img {
+	display: none; /* smaller viewports only */
+}
+
+.members .list section h3 {
+	font-size: 1rem;
+	font-family: Roboto, Helvetica, sans-serif;
+}
+
+.list section:nth-child(even) {
+	background-color: #bed;
+}
+
+.members section h3 {
+	font-size: 1.5rem;
+}
+
+.members section a {
+	font-family: "Roboto", Arial, sans-serif;
+	font-size: 0.9rem;
+}
+
+.members img {
+	height: 150px;
+	max-width: 100%; /* Images are jerks - Seattle*/
+}
+

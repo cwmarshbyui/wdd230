@@ -1,0 +1,79 @@
+ /* Week 05 Chamber Members Activity */
+ .members main {
+    max-width: 1200px;
+    margin: auto;
+    width: 100%;
+    height: auto;
+}
+
+.members .grid #memberslist {
+    display: grid;
+    grid-template-areas:
+        'a b';
+    /* grid-template-columns: 2fr 1fr 1fr; */
+    /* grid-template-columns: auto auto auto; */
+    justify-content: center;
+}
+
+.members section {
+    display: block;
+    max-width: 90%;
+    justify-content: center;
+    margin-bottom: 6px;
+    border: darkblue solid 4px;
+    border-radius: .5rem;
+    text-align: center;
+
+}
+
+.members .grid h1 {
+    font-family: Arial;
+    font-weight: 600;
+    background-color: lightblue;
+    text-align: center;
+}
+
+.members .grid h2 {
+    margin: 1rem 0 .35rem 0;
+    color: blue;
+    text-align: center;
+}
+
+.members .grid h3 {
+    margin: 0 0 .25rem 0;
+    text-align: center;
+}
+
+.members .grid img {
+    /* display: block; */
+    /* max-width: 80%; */
+    width: 50%;
+    height: auto;
+    margin-right: 1rem;
+    margin: auto;
+    justify-content: center;
+
+}
+
+/* .memberslist .grid img {
+       display: block;
+       max-width: 80%;
+       height: auto;
+     margin-left: auto; 
+     margin-right: auto;
+
+} */
+
+.members {
+ display: grid;
+ grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+ align-items: center;
+}
+
+.members .menu {
+ margin: 1rem auto;
+ border: 1px solid rgba(0, 0, 0, 0.1);
+ padding: 0.5rem;
+ background-color: #bbb;
+ text-align: center;
+}

@@ -1,0 +1,106 @@
+[
+    {
+        "company": "Hank's Boots",
+        "address": "10983 S. 299th Ave. Buckeye, AZ 85326",
+        "phones": [
+            {
+                "main": "5468761143"
+            },
+            {
+                "tech support": "5468761144"
+            }
+        ],
+        "website": "https://paulbondboots.com/"
+    },
+    {
+        "company": "ATV Tours",
+        "address": "109 N. 2nd Street. Buckeye, AZ 85326",
+        "phones": [
+            {
+                "main": "5468761143"
+            },
+            {
+                "tech support": "5468761144"
+            }
+        ],
+        "website": "https://paulbondboots.com/"
+    },
+    {
+        "company": "Fred's Bread",
+        "address": "4608 W. 200 N. Buckeye, AZ 85326",
+        "phones": [
+            {
+                "main": "5464359653"
+            },
+            {
+                "tech support": "5464359655"
+            }
+        ],
+        "website": "https://paulbondboots.com/"
+    },
+    {
+        "company": "Footcare Inc.",
+        "address": "3036 W. 3rd E. Buckeye, AZ 85326",
+        "phones": [
+            {
+                "main": "1234566789"
+            },
+            {
+                "tech support": "1234566799"
+            }
+        ],
+        "website": "https://paulbondboots.com/"
+    },
+    {
+        "company": "Movies All Day",
+        "address": "600 S. Main Street. Buckeye, AZ 85326",
+        "phones": [
+            {
+                "main": "4802996363"
+            },
+            {
+                "tech support": "4802996364"
+            }
+        ],
+        "website": "https://paulbondboots.com/"
+    },
+    {
+        "company": "Coats of Many Colors",
+        "address": "2000 E. 4500 S. Buckeye, AZ 85326",
+        "phones": [
+            {
+                "main": "6233895544"
+            },
+            {
+                "tech support": "6233895543"
+            }
+        ],
+        "website": "https://paulbondboots.com/"
+    },
+    {
+        "company": "Hamfisted Hamburgers",
+        "address": "1304 S. 400 E. Buckeye, AZ 85326",
+        "phones": [
+            {
+                "main": "4802296444"
+            },
+            {
+                "tech support": "4802296444"
+            }
+        ],
+        "website": "https://paulbondboots.com/"
+    },
+    {
+        "company": "Liars Fishing",
+        "address": "3960 N. 300 E. Buckeye, AZ 85326",
+        "phones": [
+            {
+                "main": "6233934141"
+            },
+            {
+                "tech support": "6233934142"
+            }
+        ],
+        "website": "https://paulbondboots.com/"
+    }
+]
