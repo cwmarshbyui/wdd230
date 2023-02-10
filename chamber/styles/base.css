@@ -84,3 +84,35 @@ footer {
     text-align: center;
     border: solid 4px blue;
 }
+
+#chamber-weather-icon {
+    height: 25px;
+}
+
+.chamberweather h1 {
+
+    margin-bottom: 1px;
+
+}
+
+.chamberweather p {
+
+    margin-top: .25rem;
+
+}
+
+.banneron {
+    display: block;
+    text-align: center;
+    border: solid 4px blue;
+}
+.banneroff {
+    display: none;
+}
+
+.advertisements {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    border: solid blue;
+}

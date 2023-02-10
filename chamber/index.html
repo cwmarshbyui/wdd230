@@ -33,23 +33,33 @@
             </ul>
         </nav>
     </header>
-
     <div class="heroimage">
         <img class="heroimage" src="images/WhiteTankMountains.png" alt="White Tank Mountains - Buckeye AZ">
     </div>
+    <article class="banneroff">
+        <h2> Don't forget the Meet and Greet Wednesday at 7:00 PM!</h2>
+    </article>
     <div class="sections">
         <section class="joinus">
-            <h1>Join Us!</h1>
+            <a href="join.html"><h1>Join Us!</h1></a>
         </section>
         <section class="current">
             <h1>Current Events</h1>
         </section>
-        <section class="weather">
-            <h1>Weather</h1>
+        <section class="chamberweather">
+            <h1>Weather<img id="chamber-weather-icon" src="" alt="Buckeye Weather" ></h1>
+            <p><span id="chamber-current-temp"></span> <span id="chamber-weather-figure"></span></p>
+            <!-- <figure>
+                <img id="chamber-weather-icon" src="" alt="Buckeye Weather" >
+                <figcaption id="chamber-weather-figure"></figcaption>
+              </figure> -->
         </section>
         <section class="spotlights">
             <h1>What's Going On</h1>
         </section>
+        <div class = "advertisements">
+            <span id="adspots"></span>
+        </div>
     </div>
 
     <footer>
@@ -58,6 +68,8 @@
     </footer>
     <script src="scripts/hamburger.js"></script>
     <script src="scripts/getDates.js"></script>
+    <script src="scripts/weather.js"></script>
+    <script src="scripts/advertise.js"></script>
 </body>
 
 </html>

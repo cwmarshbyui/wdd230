@@ -26,4 +26,11 @@
         justify-items: center;
     }
 
+    #adspots {
+        display: grid;
+        grid-template-areas:
+            'ad ad';
+         justify-items: center;
+    }
+
 }

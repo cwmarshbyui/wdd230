@@ -109,30 +109,56 @@
                 </iframe>
             </picture>
         </div>
-        <h1>Contact Us</h1>
-        <form method="get" action="thanks.html">
+        <h1>Contact Me</h1>
+        <!-- <form method="get" action="thanks.html"> -->
+        <form name="getJoinInformation" method="get">
+            <div>
+                <h1 id="formmessage"></h1>
+            </div>
             <fieldset>
                 <legend>Where do we send the information you want?</legend>
                 <div class="fields">
                     <div>
-                        <label class="top">Full Name* <input type="text" name="fullname" required="required"></label>
-                        <label class="top">Email* <input type="email" name="email" placeholder="someone@gmail.com"
+                        <label class="top">Full Name* <input id="joinfullname" type="text" name="fullname" required="required"></label>
+                        <label class="top">Email* <input id="joinemail" type="email" name="email" placeholder="someone@gmail.com"
                                 required></label>
                     </div>
                     <div>
-                        <label class="top">Password <input type="password" name="pwd"
+                        <label class="top" for="keyphrase">Username <input type="password" id="keyphrase" name="pwd"
                                 pattern="^(?=.*[A-Za-z\d])(?=.*[$@$!%*#?&])[A-Za-z\d$@$!%*#?&]{5,12}$"
                                 required="required"></label>
-                        <label class="top">Repeat Password <input type="password" name="pwd"
-                                pattern="^(?=.*[A-Za-z\d])(?=.*[$@$!%*#?&])[A-Za-z\d$@$!%*#?&]{5,12}$"
+                        <label class="top" for="keyphrase2">Repeat Username <input type="password" id="keyphrase2"
+                                name="pwd" pattern="^(?=.*[A-Za-z\d])(?=.*[$@$!%*#?&])[A-Za-z\d$@$!%*#?&]{5,12}$"
                                 required="required"></label>
-                        <label class="top">Page Rating* <span id="rating"></span><input type="range" min="1" max="10"
-                                id="r" name="r" list="five" value="1"></label>
+                                <label class="top">Page Rating* <span id="rating"></span><input type="range" min="1" max="10"
+                                    id="r" name="r" list="five" value="1"></label>
+                        <button id="btnSubmitInfo" type="button">Click to Join</button>
                     </div>
                 </div>
             </fieldset>
+            <!-- <button id="btnSubmitInfo" type="submit">Click to Join</button> -->
             <!-- <input type="submit" value="Propose My Course" class="submitBtn"> -->
-        </form>
+            <table class="confirmtableoff" id="confirmtableid">
+                <caption>Here is your information.</caption>
+                <tbody id="verifyinfo">
+                    <tr>
+                        <td>Full Name</td>
+                        <td id="confirmfullname"></td>
+                    </tr>
+                    <tr>
+                        <td>Email</td>
+                        <td id="confirmemail"></td>
+                    </tr>
+                    <tr>
+                        <td>Rating</td>
+                        <td id="confirmrating"></td>
+                    </tr>
+                    <tr>
+                        <td>UserName</td>
+                        <td id="confirmusername"></td>
+                    </tr>
+                </tbody>
+            </table>
     </main>
     <footer>
         <p>&copy; <span id="currentyear"></span> Cody Marsh - Arizona - 2.1.1</p>
@@ -145,6 +171,7 @@
     <script src="scripts/contactform.js"></script>
     <script src="scripts/getweather.js"></script>
     <script src="scripts/getactivities.js"></script>
+    <script src="scripts/joinus.js"></script>
 </body>
 
 </html>
