@@ -64,8 +64,6 @@ nav a {
     width: 80%;
 }
 
-;
-
 .sections {
     display: flex;
     flex-direction: column;
@@ -98,6 +96,7 @@ footer {
 .chamberweather p {
 
     margin-top: .25rem;
+    text-align: center;
 
 }
 
@@ -110,9 +109,21 @@ footer {
     display: none;
 }
 
-.advertisements {
-    display: flex;
-    flex-direction: column;
+.advertisements section{
+    display: block;
+     /* width: 80%;
+     height: 80%; */
     text-align: center;
     border: solid blue;
+    align-content: center;
+}
+
+.advertisements section img{
+    display: block;
+    width: 80%;
+    height: auto;
+    align-content: center;
+    margin-left: auto;
+    margin-right: auto;
+    width: 80%;
 }

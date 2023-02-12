@@ -39,45 +39,49 @@ async function apiFetch() {
 
 apiFetch();
 
+var vipIndex = [];
+
 function showMembers(memberData) {
     for (let i in memberData) {
-        let memberCard = document.createElement('section');
-        let companyName = document.createElement('h3');
-        let street = document.createElement('h3');
-        let phone = document.createElement('h3');
-        let website = document.createElement('a');
-        let companyImage = document.createElement('img');
-        let membershipLevel = document.createElement("h3")
-        let missionStatement = document.createElement("h3");
-        companyName.textContent = memberData[i].company;
-        street.textContent = memberData[i].street;
-        phone.textContent = memberData[i].phone;
-        website.setAttribute('href', memberData[i].website);
-        website.innerHTML = memberData[i].company;
-        companyImage.setAttribute('src', memberData[i].companyimage);
-        companyImage.setAttribute('alt', memberData[i].company);
-        // companyImage.setAttribute('width', '240');
-        // companyImage.setAttribute('height', '240');
-        membershipLevel.textContent = memberData[i].membershiplevel;
-        missionStatement.textContent = memberData[i].missionstatement;
-        memberCard.appendChild(companyName);
-        memberCard.appendChild(street);
-        memberCard.appendChild(phone);
-        // memberCard.appendChild(membershipLevel);
-        memberCard.appendChild(missionStatement);
-        // memberCard.appendChild(companyImage);
-        memberCard.appendChild(website);
+        // Need to populate membership level for the if (vipMembers....)
 
-        // membersList.appendChild(memberCard);
-
-        console.log("The level is : " + membershipLevel.textContent);
-        if (vipMembers.includes(membershipLevel.textContent)) {
-
-            advertiseList.appendChild(memberCard);
-
+        // console.log("membershipLevel = " + memberData[i].membershiplevel);
+        if (vipMembers.includes(memberData[i].membershiplevel)) {
+            vipIndex.push(i);
+            // console.log("memberData Index = " + i);
         };
-
-
     };
+    var randIndex = vipIndex[Math.floor(Math.random() * vipIndex.length)];
+    // console.log("randIndex = " + randIndex);
+    let memberCard = document.createElement('section');
+    let companyName = document.createElement('h3');
+    let street = document.createElement('h3');
+    let phone = document.createElement('h3');
+    let website = document.createElement('a');
+    let companyImage = document.createElement('img');
+    let membershipLevel = document.createElement("h3")
+    let missionStatement = document.createElement("h3");
+    companyName.textContent = memberData[randIndex].company;
+    street.textContent = memberData[randIndex].street;
+    phone.textContent = memberData[randIndex].phone;
+    website.setAttribute('href', memberData[randIndex].website);
+    website.innerHTML = memberData[randIndex].company;
+    companyImage.setAttribute('src', memberData[randIndex].companyimage);
+    companyImage.setAttribute('alt', memberData[randIndex].company);
+    // companyImage.setAttribute('width', '240');
+    // companyImage.setAttribute('height', '240');
+    membershipLevel.textContent = memberData[randIndex].membershiplevel;
+    missionStatement.textContent = memberData[randIndex].missionstatement;
+    memberCard.appendChild(companyName);
+    memberCard.appendChild(street);
+    memberCard.appendChild(phone);
+    memberCard.appendChild(membershipLevel);
+    memberCard.appendChild(website);
+    memberCard.appendChild(missionStatement);
+    
+    memberCard.appendChild(companyImage);
+
+    adSpots.appendChild(memberCard);
+
 };
 
