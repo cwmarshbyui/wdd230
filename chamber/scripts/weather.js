@@ -57,8 +57,8 @@ function displayResults2(data2) {
         if (dateOnly != dateOnly2) {
             if (noDays != 0) {
                 dateOnly2 = data2.list[i].dt_txt.substring(0, 10);
-                console.log(dateOnly.substr(5, 5) + "/" + Math.round(data2.list[i].main.temp));
-                forecast = forecast + dateOnly.substr(5, 5) + "/" + Math.round(data2.list[i].main.temp) + " ";
+                // console.log(dateOnly.substr(5, 5) + "=" + Math.round(data2.list[i].main.temp));
+                forecast = forecast + dateOnly.substr(5, 5) + "=" + `${Math.round(data2.list[i].main.temp)}&deg;F` + " ";
                 if (noDays === 3) { break; }
             }
             noDays++;

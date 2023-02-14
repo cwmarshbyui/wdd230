@@ -7,8 +7,6 @@ async function apiFetch() {
         const response = await fetch(membersjson);
         if (response.ok) {
             const memberData = await response.json();
-            // console.log("json file comes next.");
-            // console.log(memberData);
             showMembers(memberData);
 
         } else {
@@ -62,7 +60,6 @@ function showMembers(memberData) {
     gridbutton.addEventListener("click", () => {
         display.classList.add("grid");
         display.classList.remove("list");
-        console.log("We are here in the console log");
     });
 
     listbutton.addEventListener("click", showList);
