@@ -16,7 +16,7 @@ if (advertiseMeetDays.includes(currentDay)) {
 
 const membersList = document.querySelector("#memberslist");
 const membersjson = 'data/members.json';
-const advertiseList = document.querySelector("#adspots");
+// const advertiseList = document.querySelector("#adspots");
 const adSpots = document.querySelector("#adspots");
 const vipMembers = ["Premium", "Silver"];
 

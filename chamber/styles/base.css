@@ -127,3 +127,8 @@ footer {
     margin-right: auto;
     width: 80%;
 }
+
+#adspots section {
+    display: block;
+    width: 80%;
+}
