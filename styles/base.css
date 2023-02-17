@@ -269,10 +269,6 @@ iframe {
     margin: 0;
 }
 
-.discover-hover:hover {
-    box-shadow: 0 0 50px #333;
-}
-
 /* -------- Contact Form -------- */
 :root {
     --fback: lightblue;

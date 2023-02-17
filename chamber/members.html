@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>"WDD 230 - Portal - Cody Marsh</title>
+    <meta name="description" content="WDD 230 - Cody Marsh - course assignment portal">
+    <meta name="author" content="Cody Marsh">
+    <link rel="stylesheet" href="../styles/normalize.css">
+    <link rel="icon" href="favicon.ico">
+    <link rel="stylesheet" href="../styles/base.css">
+    <link rel="stylesheet" href="../styles/larger.css">
+    <link rel="stylesheet"
+        href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@1,100;1,300&display=swap" rel="stylesheet">
+    <meta property="og:title" content="WDD 230 Course Activity Portal">
+    <meta property="og:type" content="website">
+    <meta property="og:image"
+        content="https://en.wikipedia.org/wiki/Tonopah,_Arizona#/media/File:Tonopah_Tonopah_Post_Office-1934.jpg">
+    <meta property="og:url" content="https://cwmarshbyui.github.io/wdd230/index.html">
+</head>
+
+<body>
+
+    <nav>
+        <a href="https://www.byui.edu">BYU-Idaho</a>
+        <a href="https://www.linkedin.com/in/cody-marsh-75a49810/">Linkedin</a>
+        <div id="mode">
+            ☑️
+        </div>
+        <ul class="material-symbols-outlined">
+            <li title="home">
+                <a href="#" id="menu-button">Menu</a>
+            </li>
+            <li title="Holy Grail">
+                <a href="../week01/holygrail.html" class="menu-item">Holy Grail</a>
+            </li>
+            <li title="Media Query">
+                <a href="../week01/media-query.html" class="menu-item">Media Query</a>
+            </li>
+            <li title="Design">
+                <a href="../week02/design.html" class="menu-item">Design</a>
+            </li>
+            <li title="Hamburger Menu">
+                <a href="https://codepen.io/cwmarsh/full/XWBMBgY" class="menu-item">Hamburger Menu</a>
+            </li>
+            <li title="BOM Top 10">
+                <a href="../week02/bom.html" class="menu-item">BOM Top 10</a>
+            </li>
+        </ul>
+    </nav>
+    <header>
+        <div class="codypicture">
+            <h1 class="codyname">Cody Marsh</h1>
+            <h1><img src="../images/CodyMarshPrairieMadeHappyPicture.png" alt="Happy picture of Cody" class="codyimage"
+                    loading="lazy">
+
+            </h1>
+        </div>
+    </header>
+    <main class="members">
+        <div class="membersmenu">
+            <button id="grid">⏹️Grid</button>
+            <button id="list">📄List</button>
+        </div>
+        <article class="grid" id="memberslist"></article>
+    </main>
+    <footer>
+        <p>&copy; <span id="currentyear"></span> Cody Marsh - Arizona - 2.1.1</p>
+        <p class="highlight">Last Modified <span id="lastModified"></span></p>
+    </footer>
+    <script src="scripts/members.js"></script>
+    <script src="../scripts/getdates.js"></script>
+    <!-- <script src="../scripts/getVisits.js"></script> -->
+    <script src="../scripts/darkMode.js"></script>
+    <script src="../scripts/hamburger.js"></script>
+    <!-- <script src="../scripts/contactform.js"></script> -->
+    <!-- <script src="../scripts/getweather.js"></script> -->
+    <!-- <script src="../scripts/getactivities.js"></script> -->
+
+</body>
+
+</html>

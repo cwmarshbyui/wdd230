@@ -68,6 +68,7 @@ function showMembers(memberData) {
     website.innerHTML = memberData[randIndex].company;
     companyImage.setAttribute('src', memberData[randIndex].companyimage);
     companyImage.setAttribute('alt', memberData[randIndex].company);
+    companyImage.className = 'adimagesize';
     // companyImage.setAttribute('width', '240');
     // companyImage.setAttribute('height', '240');
     membershipLevel.textContent = memberData[randIndex].membershiplevel;

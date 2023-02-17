@@ -29,7 +29,7 @@
     #adspots {
         display: grid;
         grid-template-areas:
-            'ad',
+            'ad'
             'ad';
          justify-items: center;
     }

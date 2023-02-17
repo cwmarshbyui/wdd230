@@ -12,6 +12,8 @@
     <link rel="icon" href="../favicon.ico">
     <link rel="stylesheet" href="../styles/base.css">
     <link rel="stylesheet" href="../styles/larger.css">
+    <!-- <link rel="stylesheet" href="styles/base.css">
+    <link rel="stylesheet" href="styles/larger.css"> -->
     <link rel="stylesheet"
         href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200">
     <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@1,100;1,300&display=swap" rel="stylesheet">
@@ -79,7 +81,13 @@
                 <span class="discoverminutesbetweenvisits"></span>
             </div>
             <div class="discover-pictures">
-
+                <figure>
+                    <figcaption class="discover-pic-labels"> Historic Buckeye</figcaption>
+                    <picture>
+                        <img class="discover-hover" src="images/OldBuckeyeHistoric.jpg" width=600 height=400
+                            alt="Historic Buckeye" loading="lazy">
+                    </picture>
+                </figure>
                 <figure>
                     <figcaption class="discover-pic-labels"> Gelespie Bridge</figcaption>
                     <picture>
@@ -101,11 +109,25 @@
                             alt="White Tank Mountains" loading="lazy">
                     </picture>
                 </figure>
+                <figure>
+                    <figcaption class="discover-pic-labels"> Old Buckeye Main Street</figcaption>
+                    <picture>
+                        <img class="discover-hover" src="images/OldBuckeyeMainStreet.webp" width=600 height=400
+                            alt="Old Buckeye Main Street" loading="lazy">
+                    </picture>
+                </figure>
+                <figure>
+                    <figcaption class="discover-pic-labels"> Buckeye Old West</figcaption>
+                    <picture>
+                        <img class="discover-hover" src="images/OldBuckeyeAzOldWest.webp" width=600 height=400
+                            alt="Buckeye Old West" loading="lazy">
+                    </picture>
+                </figure>
             </div>
         </div>
     </main>
     <footer>
-        <p>&copy; <span id="currentyear"></span> Cody Marsh - Arizona - 2.1.1</p>
+        <p>&copy; <span id="currentyear"></span> Cody Marsh - Arizona - WDD 230 Project</p>
         <p class="highlight">Last Modified <span id="lastModified"></span></p>
     </footer>
     <script src="../scripts/getDates.js"></script>
